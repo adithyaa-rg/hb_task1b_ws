@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/adi/eyrc_hb/hb_task1b_ws/src/hb_task_1b/setup.py", line 7, in <module>
+    setup(
+  File "/home/adi/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+    return distutils.core.setup(**attrs)
+  File "/usr/lib/python3.10/distutils/core.py", line 148, in setup
+    dist.run_commands()
+  File "/usr/lib/python3.10/distutils/dist.py", line 966, in run_commands
+    self.run_command(cmd)
+  File "/usr/lib/python3.10/distutils/dist.py", line 985, in run_command
+    cmd_obj.run()
+  File "/home/adi/.local/lib/python3.10/site-packages/setuptools/command/install.py", line 61, in run
+    return orig.install.run(self)
+  File "/usr/lib/python3.10/distutils/command/install.py", line 631, in run
+    self.run_command(cmd_name)
+  File "/usr/lib/python3.10/distutils/cmd.py", line 313, in run_command
+    self.distribution.run_command(command)
+  File "/usr/lib/python3.10/distutils/dist.py", line 985, in run_command
+    cmd_obj.run()
+  File "/home/adi/.local/lib/python3.10/site-packages/setuptools/command/install_scripts.py", line 52, in run
+    for args in writer.get_args(dist, cmd.as_header()):
+  File "/home/adi/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 2111, in get_args
+    cls._ensure_safe_name(name)
+  File "/home/adi/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 2124, in _ensure_safe_name
+    raise ValueError("Path separators not allowed in script names")
+ValueError: Path separators not allowed in script names

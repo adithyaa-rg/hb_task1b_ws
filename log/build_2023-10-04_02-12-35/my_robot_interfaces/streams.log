@@ -1,0 +1,17 @@
+[0.116s] Invoking command in '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j8 -l8
+[0.168s] [  3%] Built target my_robot_interfaces__cpp
+[0.168s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.178s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.185s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make:122: CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/depend] Interrupt
+[0.185s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:131: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend] Interrupt
+[0.185s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/depend] Interrupt
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/all] Interrupt
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/all] Interrupt
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[0.186s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make:128: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+[0.186s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.186s] gmake: *** [Makefile:146: all] Interrupt
+[0.186s] Invoked command in '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j8 -l8

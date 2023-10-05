@@ -1,0 +1,15 @@
+[  3%] Built target my_robot_interfaces__cpp
+[ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/build.make:122: CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:131: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/ament_cmake_python_build_my_robot_interfaces_egg.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/build.make:128: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

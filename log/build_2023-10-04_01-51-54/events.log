@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.001371] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001507] (hb_task_1b) JobQueued: {'identifier': 'hb_task_1b', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces')])}
+[0.001618] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.099105] (-) TimerEvent: {}
+[0.200021] (-) TimerEvent: {}
+[0.257361] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.262477] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.264670] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'adi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adi'), ('OLDPWD', '/home/adi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2264'), ('SYSTEMD_EXEC_PID', '2482'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17053'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adi'), ('JOURNAL_STREAM', '8:74834'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/adi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adi:@/tmp/.ICE-unix/2454,unix/adi:/tmp/.ICE-unix/2454'), ('INVOCATION_ID', '1507d6124959473ba47b8854cf0b0581'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BDUSB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a18ca36a-917a-42e3-a975-1ddbc781184b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[0.300185] (-) TimerEvent: {}
+[0.400816] (-) TimerEvent: {}
+[0.405895] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target my_robot_interfaces__cpp\n'}
+[0.407132] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[0.445020] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[0.473976] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.475385] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.493663] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.500987] (-) TimerEvent: {}
+[0.517663] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[0.518627] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.521796] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.579537] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces\n'}
+[0.601118] (-) TimerEvent: {}
+[0.633677] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__py\n'}
+[0.696258] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[0.701256] (-) TimerEvent: {}
+[0.761229] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.767895] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.768664] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.801435] (-) TimerEvent: {}
+[0.901984] (-) TimerEvent: {}
+[1.002513] (-) TimerEvent: {}
+[1.103080] (-) TimerEvent: {}
+[1.203627] (-) TimerEvent: {}
+[1.304272] (-) TimerEvent: {}
+[1.404832] (-) TimerEvent: {}
+[1.494008] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.495873] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[1.496378] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[1.496852] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[1.503847] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.505005] (-) TimerEvent: {}
+[1.505679] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.580586] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[1.605220] (-) TimerEvent: {}
+[1.614756] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.705400] (-) TimerEvent: {}
+[1.768573] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[1.797563] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces'], 'cwd': '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'adi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adi'), ('OLDPWD', '/home/adi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2264'), ('SYSTEMD_EXEC_PID', '2482'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17053'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adi'), ('JOURNAL_STREAM', '8:74834'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/adi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adi:@/tmp/.ICE-unix/2454,unix/adi:/tmp/.ICE-unix/2454'), ('INVOCATION_ID', '1507d6124959473ba47b8854cf0b0581'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BDUSB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a18ca36a-917a-42e3-a975-1ddbc781184b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adi/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[1.805523] (-) TimerEvent: {}
+[1.821738] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.822823] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[1.823293] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.823682] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.823919] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.824264] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.824535] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.824773] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.h\n'}
+[1.825011] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.h\n'}
+[1.825246] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.h\n'}
+[1.825522] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.c\n'}
+[1.825935] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.h\n'}
+[1.826314] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[1.826543] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[1.826843] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[1.827066] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.827285] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.827638] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.828102] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.828374] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.828594] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[1.828912] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.829135] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.829353] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.829568] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.829844] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.830063] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.830278] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.c\n'}
+[1.830602] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_c.h\n'}
+[1.830917] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.831370] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[1.831898] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.832577] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.833219] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.833731] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.hpp\n'}
+[1.834413] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__traits.hpp\n'}
+[1.834940] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__builder.hpp\n'}
+[1.835331] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.hpp\n'}
+[1.835707] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.836158] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[1.836691] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.837365] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.837736] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.838193] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.838662] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[1.839130] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.839674] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[1.840602] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[1.841055] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[1.841315] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.cpp\n'}
+[1.841607] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.841848] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.842085] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.842336] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[1.842581] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[1.842791] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.843004] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.843219] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.843433] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.843691] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.843936] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[1.844197] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[1.844538] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal_s.c\n'}
+[1.844773] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[1.845006] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py\n'}
+[1.845235] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.845493] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[1.845728] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.845960] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[1.846191] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.846425] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.846680] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.846910] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.905706] (-) TimerEvent: {}
+[1.948134] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[1.948659] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[1.961850] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.963088] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.964388] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.965731] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[1.966448] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.idl\n'}
+[1.966961] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.srv\n'}
+[1.967603] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Request.msg\n'}
+[1.968037] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Response.msg\n'}
+[1.968493] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[1.968880] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[1.969232] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[1.969546] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.969786] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[1.970021] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[1.970326] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[1.970576] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[1.970921] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[1.971172] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[1.971491] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[1.971785] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[1.972098] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.972515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.972879] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.973175] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.973470] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.973703] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.973936] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.974164] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.974432] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.984082] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.984468] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.984899] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.985216] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.985606] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.985863] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.986129] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.986405] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.986699] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.987040] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.987314] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.987676] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.988067] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.988415] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.988645] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.988864] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[1.989079] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[1.989322] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[1.995478] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[2.005980] (-) TimerEvent: {}
+[2.107119] (-) TimerEvent: {}
+[2.207874] (-) TimerEvent: {}
+[2.308756] (-) TimerEvent: {}
+[2.409526] (-) TimerEvent: {}
+[2.510550] (-) TimerEvent: {}
+[2.611922] (-) TimerEvent: {}
+[2.713647] (-) TimerEvent: {}
+[2.815165] (-) TimerEvent: {}
+[2.916026] (-) TimerEvent: {}
+[2.941693] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[2.943692] (hb_task_1b) JobStarted: {'identifier': 'hb_task_1b'}
+[3.016271] (-) TimerEvent: {}
+[3.118686] (-) TimerEvent: {}
+[3.219507] (-) TimerEvent: {}
+[3.321272] (-) TimerEvent: {}
+[3.422353] (-) TimerEvent: {}
+[3.522946] (-) TimerEvent: {}
+[3.623533] (-) TimerEvent: {}
+[3.724153] (-) TimerEvent: {}
+[3.824885] (-) TimerEvent: {}
+[3.925586] (-) TimerEvent: {}
+[4.026321] (-) TimerEvent: {}
+[4.127071] (-) TimerEvent: {}
+[4.227670] (-) TimerEvent: {}
+[4.328327] (-) TimerEvent: {}
+[4.428862] (-) TimerEvent: {}
+[4.529447] (-) TimerEvent: {}
+[4.630051] (-) TimerEvent: {}
+[4.730780] (-) TimerEvent: {}
+[4.831522] (-) TimerEvent: {}
+[4.934406] (-) TimerEvent: {}
+[5.035065] (-) TimerEvent: {}
+[5.135895] (-) TimerEvent: {}
+[5.236582] (-) TimerEvent: {}
+[5.337256] (-) TimerEvent: {}
+[5.437926] (-) TimerEvent: {}
+[5.538590] (-) TimerEvent: {}
+[5.639292] (-) TimerEvent: {}
+[5.739998] (-) TimerEvent: {}
+[5.840728] (-) TimerEvent: {}
+[5.941383] (-) TimerEvent: {}
+[6.042109] (-) TimerEvent: {}
+[6.142803] (-) TimerEvent: {}
+[6.243484] (-) TimerEvent: {}
+[6.344140] (-) TimerEvent: {}
+[6.444803] (-) TimerEvent: {}
+[6.545409] (-) TimerEvent: {}
+[6.568130] (hb_task_1b) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/hb_task_1b', 'build', '--build-base', '/home/adi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build', 'install', '--record', '/home/adi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/install.log', '--single-version-externally-managed'], 'cwd': '/home/adi/eyrc_hb/hb_task1b_ws/src/hb_task_1b', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'adi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2264', 'SYSTEMD_EXEC_PID': '2482', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '17053', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/eyrc_hb/hb_task1b_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '8:74834', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/adi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi:@/tmp/.ICE-unix/2454,unix/adi:/tmp/.ICE-unix/2454', 'INVOCATION_ID': '1507d6124959473ba47b8854cf0b0581', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BDUSB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a18ca36a-917a-42e3-a975-1ddbc781184b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/eyrc_hb/hb_task1b_ws/build/hb_task_1b', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/prefix_override:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/adi/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces'}, 'shell': False}
+[6.645590] (-) TimerEvent: {}
+[6.746331] (-) TimerEvent: {}
+[6.847005] (-) TimerEvent: {}
+[6.947718] (-) TimerEvent: {}
+[7.048389] (-) TimerEvent: {}
+[7.149078] (-) TimerEvent: {}
+[7.249784] (-) TimerEvent: {}
+[7.350484] (-) TimerEvent: {}
+[7.451221] (-) TimerEvent: {}
+[7.551924] (-) TimerEvent: {}
+[7.652672] (-) TimerEvent: {}
+[7.734316] (hb_task_1b) StdoutLine: {'line': b'running egg_info\n'}
+[7.736501] (hb_task_1b) StdoutLine: {'line': b'writing ../../build/hb_task_1b/hb_task_1b.egg-info/PKG-INFO\n'}
+[7.737049] (hb_task_1b) StdoutLine: {'line': b'writing dependency_links to ../../build/hb_task_1b/hb_task_1b.egg-info/dependency_links.txt\n'}
+[7.737587] (hb_task_1b) StdoutLine: {'line': b'writing entry points to ../../build/hb_task_1b/hb_task_1b.egg-info/entry_points.txt\n'}
+[7.738133] (hb_task_1b) StdoutLine: {'line': b'writing requirements to ../../build/hb_task_1b/hb_task_1b.egg-info/requires.txt\n'}
+[7.738504] (hb_task_1b) StdoutLine: {'line': b'writing top-level names to ../../build/hb_task_1b/hb_task_1b.egg-info/top_level.txt\n'}
+[7.744385] (hb_task_1b) StdoutLine: {'line': b"reading manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'\n"}
+[7.747772] (hb_task_1b) StdoutLine: {'line': b"writing manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'\n"}
+[7.748377] (hb_task_1b) StdoutLine: {'line': b'running build\n'}
+[7.748660] (hb_task_1b) StdoutLine: {'line': b'running build_py\n'}
+[7.749095] (hb_task_1b) StdoutLine: {'line': b'running install\n'}
+[7.750001] (hb_task_1b) StdoutLine: {'line': b'running install_lib\n'}
+[7.752786] (-) TimerEvent: {}
+[7.754034] (hb_task_1b) StdoutLine: {'line': b'running install_data\n'}
+[7.756274] (hb_task_1b) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.761635] (hb_task_1b) StdoutLine: {'line': b"removing '/home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.762572] (hb_task_1b) StdoutLine: {'line': b'Copying ../../build/hb_task_1b/hb_task_1b.egg-info to /home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info\n'}
+[7.765222] (hb_task_1b) StdoutLine: {'line': b'running install_scripts\n'}
+[7.833658] (hb_task_1b) StdoutLine: {'line': b'Installing service_node script to /home/adi/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b\n'}
+[7.834659] (hb_task_1b) StdoutLine: {'line': b"writing list of installed files to '/home/adi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/install.log'\n"}
+[7.852956] (-) TimerEvent: {}
+[7.904245] (hb_task_1b) CommandEnded: {'returncode': 0}
+[7.954309] (-) TimerEvent: {}
+[8.055421] (-) TimerEvent: {}
+[8.156671] (-) TimerEvent: {}
+[8.159926] (hb_task_1b) JobEnded: {'identifier': 'hb_task_1b', 'rc': 0}
+[8.162028] (-) EventReactorShutdown: {}
